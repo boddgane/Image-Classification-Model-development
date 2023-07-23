@@ -13,3 +13,5 @@ We are using precision, recall, f1 score and acccuracy.
    ```
       pip install -r requirements.txt
    ```
+## Observations for misclassifications:
+For misclassification in the buildings list, we see that most of the predictions are of street becuase in the training images we can see that there are buildings present in the streets images. The same issue is for mountains and glaciers.
