@@ -6,3 +6,10 @@ The input to the network is an image of dimensions (150, 150, 3). The first two 
 Keras has a module with image-processing helping tools, located at keras.preprocessing.image. It contains the class ImageDataGenerator, which lets you quickly set up Python generators that can automatically turn image files on disk into batches of preprocessed tensors.
 ## Evaluation results:
 We are using precision, recall, f1 score and acccuracy.
+## Requirements
+
+  Install the required python modules.
+
+   ```
+      pip install -r requirements.txt
+   ```
